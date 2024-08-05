@@ -1,7 +1,7 @@
-# Recetario de Cocina con MariaDB y SQLAlchemy
+# Proyecto de Recetario con SQLAlchemy
 
 ## Descripción
-Este proyecto es una aplicación de línea de comandos desarrollada en Python que permite gestionar un libro de recetas de cocina, ahora utilizando MariaDB y SQLAlchemy como ORM para mejorar la gestión de la base de datos. Los usuarios pueden agregar, actualizar, eliminar y buscar recetas con facilidad, con todos los datos almacenados de manera segura en MariaDB.
+Este proyecto es una aplicación de línea de comandos desarrollada en Python, que utiliza SQLAlchemy para gestionar un libro de recetas de cocina con una base de datos. Los usuarios pueden agregar, actualizar, eliminar y buscar recetas almacenadas en una base de datos relacional.
 
 ## Funcionalidades
 - **Agregar nueva receta**: Permite a los usuarios ingresar una nueva receta, incluyendo detalles como nombre, descripción, ingredientes y pasos.
@@ -14,7 +14,7 @@ Este proyecto es una aplicación de línea de comandos desarrollada en Python qu
 ## Tecnologías Utilizadas
 - Python 3.8
 - SQLAlchemy
-- MariaDB
+- SQLite (o cualquier otro sistema de gestión de bases de datos compatible con SQLAlchemy)
 
 ## Instalación y Configuración
 Clona este repositorio a tu máquina local usando:
